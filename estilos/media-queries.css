@@ -22,18 +22,32 @@
 
    }
 
+   
+
+   section#login{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 640px;
+    height: 300px;
+   }
+
     section#login > div#imagem {
-        display: flex;
         background: #393E54 url(../imagens/porta-amarela.jpg) no-repeat;
         background-size: cover;
         background-position: left center;
-        height: 200px;
-        
-        
-
+        height: 100%;
+        width: 60%;
+    
     }
 }
 
     @media screen and (min-width: 992px) { /* IMAGEM TEM QUE FICAR DO LADO DIREITO DO TEXTO */
-        
+        section#login{
+            display: flex;
+            flex-direction: row-reverse;
+            align-items: center;
+            width: 800px;
+            height: 400px;
+           }
     }
