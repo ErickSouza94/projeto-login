@@ -39,6 +39,9 @@ section#login {
     left: 50%;
     transform: translate(-50%, -50%);
     overflow: hidden; /*O que tiver FORA DA BORDA ficará escondido*/
+
+    transition: width .5s, height .5s;
+    transition-timing-function: ease;
 }
 
 section#login > div#imagem {
