@@ -49,5 +49,14 @@
             align-items: center;
             width: 800px;
             height: 400px;
-           }
+            
+        }
+        
+        #formulario h1{
+            font-size: 2em;
+        }
+
+        #formulario p{
+            font-size: 1.3em;
+        }
     }

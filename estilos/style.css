@@ -61,11 +61,12 @@ section#login div#formulario {
 
 section#login div#formulario h1{
     text-align: center;
-    padding-bottom: 5px;    
+    margin-bottom: 10px;
 }
 
 div#formulario p {
     margin-bottom: 10px;
+    
 }
 
 form{
