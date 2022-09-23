@@ -18,18 +18,18 @@
     }
 
     body > div#formulario > h1{
-    text-align: center;
+        text-align: center;
 
    }
 
    
 
-   section#login{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    width: 640px;
-    height: 300px;
+   section#login {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: 640px;
+        height: 300px;
    }
 
     section#login > div#imagem {
@@ -43,20 +43,25 @@
 }
 
     @media screen and (min-width: 992px) { /* IMAGEM TEM QUE FICAR DO LADO DIREITO DO TEXTO */
-        section#login{
-            display: flex;
-            flex-direction: row-reverse;
-            align-items: center;
-            width: 800px;
-            height: 400px;
+    section#login{
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        width: 800px;
+        height: 350px;
             
-        }
-        
-        #formulario h1{
-            font-size: 2em;
-        }
-
-        #formulario p{
-            font-size: 1.3em;
-        }
     }
+       
+    #formulario h1{
+        font-size: 2em;
+    }
+
+    #formulario p{
+        font-size: 1.3em;
+    }
+
+    .botao {
+        gap: 8px;
+        
+    }
+}
