@@ -6,7 +6,7 @@
     }
 }
 
-@media screen and (min-width: 768px) { /* IMAGEM TEM QUE FICAR NA LATERAL ESQUERDA DO TEXTO */
+@media screen and (min-width: 768px) { /*  TABLET // IMAGEM TEM QUE FICAR NA LATERAL ESQUERDA DO TEXTO */
     main{
         width: 768px;
     }
@@ -42,7 +42,7 @@
     }
 }
 
-    @media screen and (min-width: 992px) { /* IMAGEM TEM QUE FICAR DO LADO DIREITO DO TEXTO */
+    @media screen and (min-width: 992px) { /*  IMAGEM TEM QUE FICAR DO LADO DIREITO DO TEXTO */
     section#login{
         display: flex;
         flex-direction: row-reverse;
